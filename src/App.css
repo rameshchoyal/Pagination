@@ -1,0 +1,36 @@
+.product-image {
+  width: 300px;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(241, 240, 240);
+  border-radius: 5px;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.pagination > span {
+  border: solid black 1px;
+  padding: 25px;
+  cursor: pointer;
+}
+.selected-page {
+  background-color: lightgray;
+}
+.pagination-disable {
+  opacity: 0;
+}
